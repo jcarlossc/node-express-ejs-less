@@ -1,0 +1,436 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html {
+  background-color: #292828;
+}
+.container {
+  width: 80%;
+  background-color: #292828;
+  margin: auto;
+  height: 100vh;
+}
+.container main .primeiro {
+  display: flex;
+}
+.container main .primeiro div {
+  color: white;
+  text-align: center;
+}
+.container main .primeiro div p {
+  margin-top: 30px;
+}
+.container main .primeiro .p-1 {
+  width: 20%;
+  height: 16vh;
+  color: white;
+  font-size: 30px;
+  background-color: #3d3c3c;
+}
+.container main .primeiro .p-2 {
+  width: 20%;
+  height: 16vh;
+  color: white;
+  font-size: 30px;
+  background-color: #515050;
+}
+.container main .primeiro .p-3 {
+  width: 20%;
+  height: 16vh;
+  color: white;
+  font-size: 30px;
+  background-color: #656464;
+}
+.container main .primeiro .p-4 {
+  width: 20%;
+  height: 16vh;
+  color: white;
+  font-size: 30px;
+  background-color: #797878;
+}
+.container main .primeiro .p-5 {
+  width: 20%;
+  height: 16vh;
+  color: white;
+  font-size: 30px;
+  background-color: #8d8c8c;
+}
+.container main .primeiro .segundo {
+  display: flex;
+}
+.container main .primeiro .segundo .s-1 {
+  width: 20%;
+  height: 16vh;
+  background-color: #149414;
+}
+.container main .primeiro .segundo .s-2 {
+  width: 20%;
+  height: 16vh;
+  background-color: #28a828;
+}
+.container main .primeiro .segundo .s-3 {
+  width: 20%;
+  height: 16vh;
+  background-color: #3cbc3c;
+}
+.container main .primeiro .segundo .s-4 {
+  width: 20%;
+  height: 16vh;
+  background-color: #50d050;
+}
+.container main .primeiro .segundo .s-5 {
+  width: 20%;
+  height: 16vh;
+  background-color: #64e464;
+}
+.container main .terceiro {
+  display: flex;
+}
+.container main .terceiro div {
+  color: white;
+  text-align: center;
+}
+.container main .terceiro div p {
+  margin-top: 30px;
+  color: green;
+}
+.container main .terceiro .t-1 {
+  width: 12.5%;
+  height: 16vh;
+  font-size: 30px;
+  background-color: #242323;
+}
+.container main .terceiro .t-2 {
+  width: 12.5%;
+  height: 16vh;
+  font-size: 30px;
+  background-color: #1f1e1e;
+}
+.container main .terceiro .t-3 {
+  width: 12.5%;
+  height: 16vh;
+  font-size: 30px;
+  background-color: #1a1919;
+}
+.container main .terceiro .t-4 {
+  width: 12.5%;
+  height: 16vh;
+  font-size: 30px;
+  background-color: #151414;
+}
+.container main .terceiro .t-5 {
+  width: 12.5%;
+  height: 16vh;
+  font-size: 30px;
+  background-color: #100f0f;
+}
+.container main .terceiro .t-6 {
+  width: 12.5%;
+  height: 16vh;
+  font-size: 30px;
+  background-color: #0b0a0a;
+}
+.container main .terceiro .t-7 {
+  width: 12.5%;
+  height: 16vh;
+  font-size: 30px;
+  background-color: #060505;
+}
+.container main .terceiro .t-8 {
+  width: 12.5%;
+  height: 16vh;
+  font-size: 30px;
+  background-color: #010000;
+}
+.container main .quarto {
+  display: flex;
+}
+.container main .quarto div {
+  color: white;
+  text-align: center;
+}
+.container main .quarto div p {
+  margin-top: 30px;
+  color: green;
+}
+.container main .quarto .q-1 {
+  width: 10%;
+  height: 16vh;
+  font-size: 30px;
+  background-color: #242323;
+}
+.container main .quarto .q-2 {
+  width: 10%;
+  height: 16vh;
+  font-size: 30px;
+  background-color: #1f1e1e;
+}
+.container main .quarto .q-3 {
+  width: 10%;
+  height: 16vh;
+  font-size: 30px;
+  background-color: #1a1919;
+}
+.container main .quarto .q-4 {
+  width: 10%;
+  height: 16vh;
+  font-size: 30px;
+  background-color: #151414;
+}
+.container main .quarto .q-5 {
+  width: 10%;
+  height: 16vh;
+  font-size: 30px;
+  background-color: #100f0f;
+}
+.container main .quarto .q-6 {
+  width: 10%;
+  height: 16vh;
+  font-size: 30px;
+  background-color: #0b0a0a;
+}
+.container main .quarto .q-7 {
+  width: 10%;
+  height: 16vh;
+  font-size: 30px;
+  background-color: #060505;
+}
+.container main .quarto .q-8 {
+  width: 10%;
+  height: 16vh;
+  font-size: 30px;
+  background-color: #010000;
+}
+.container main .quarto .q-9 {
+  width: 10%;
+  height: 16vh;
+  font-size: 30px;
+  background-color: #000000;
+}
+.container main .quarto .q-10 {
+  width: 10%;
+  height: 16vh;
+  font-size: 30px;
+  background-color: #000000;
+}
+.container main .quinto {
+  display: flex;
+}
+.container main .quinto div {
+  color: white;
+  text-align: center;
+}
+.container main .quinto div p {
+  margin-top: 30px;
+  color: green;
+}
+.container main .quinto .qu-1 {
+  width: 12.5%;
+  height: 16vh;
+  font-size: 30px;
+  background-color: #242323;
+}
+.container main .quinto .qu-2 {
+  width: 12.5%;
+  height: 16vh;
+  font-size: 30px;
+  background-color: #1f1e1e;
+}
+.container main .quinto .qu-3 {
+  width: 12.5%;
+  height: 16vh;
+  font-size: 30px;
+  background-color: #1a1919;
+}
+.container main .quinto .qu-4 {
+  width: 12.5%;
+  height: 16vh;
+  font-size: 30px;
+  background-color: #151414;
+}
+.container main .quinto .qu-5 {
+  width: 12.5%;
+  height: 16vh;
+  font-size: 30px;
+  background-color: #100f0f;
+}
+.container main .quinto .qu-6 {
+  width: 12.5%;
+  height: 16vh;
+  font-size: 30px;
+  background-color: #0b0a0a;
+}
+.container main .quinto .qu-7 {
+  width: 12.5%;
+  height: 16vh;
+  font-size: 30px;
+  background-color: #060505;
+}
+.container main .quinto .qu-8 {
+  width: 12.5%;
+  height: 16vh;
+  font-size: 30px;
+  background-color: #010000;
+}
+.container main .quinto .sexto {
+  display: flex;
+}
+.container main .quinto .sexto div {
+  color: white;
+  text-align: center;
+}
+.container main .quinto .sexto div p {
+  margin-top: 30px;
+  color: green;
+}
+.container main .quinto .sexto .se-1 {
+  width: 20%;
+  height: 16vh;
+  font-size: 30px;
+  background-color: #088808;
+}
+.container main .quinto .sexto .se-2 {
+  width: 20%;
+  height: 16vh;
+  font-size: 30px;
+  background-color: #109010;
+}
+.container main .quinto .sexto .se-3 {
+  width: 20%;
+  height: 16vh;
+  font-size: 30px;
+  background-color: #189818;
+}
+.container main .quinto .sexto .se-4 {
+  width: 20%;
+  height: 16vh;
+  font-size: 30px;
+  background-color: #20a020;
+}
+.container main .quinto .sexto .se-5 {
+  width: 20%;
+  height: 16vh;
+  font-size: 30px;
+  background-color: #28a828;
+}
+.container main .setimo {
+  display: flex;
+}
+.container main .setimo div {
+  color: white;
+  text-align: center;
+}
+.container main .setimo div p {
+  margin-top: 45px;
+  color: #292828;
+}
+.container main .setimo .set-1 {
+  width: 12.5%;
+  height: 20vh;
+  font-size: 30px;
+  background-color: #0f8f0f;
+}
+.container main .setimo .set-2 {
+  width: 12.5%;
+  height: 20vh;
+  font-size: 30px;
+  background-color: #1e9e1e;
+}
+.container main .setimo .set-3 {
+  width: 12.5%;
+  height: 20vh;
+  font-size: 30px;
+  background-color: #2dad2d;
+}
+.container main .setimo .set-4 {
+  width: 12.5%;
+  height: 20vh;
+  font-size: 30px;
+  background-color: #3cbc3c;
+}
+.container main .setimo .set-5 {
+  width: 12.5%;
+  height: 20vh;
+  font-size: 30px;
+  background-color: #4bcb4b;
+}
+.container main .setimo .set-6 {
+  width: 12.5%;
+  height: 20vh;
+  font-size: 30px;
+  background-color: #5ada5a;
+}
+.container main .setimo .set-7 {
+  width: 12.5%;
+  height: 20vh;
+  font-size: 30px;
+  background-color: #69e969;
+}
+.container main .setimo .set-8 {
+  width: 12.5%;
+  height: 20vh;
+  font-size: 30px;
+  background-color: #78f878;
+}
+.container main .nono {
+  display: flex;
+}
+.container main .nono div {
+  color: white;
+  text-align: center;
+}
+.container main .nono div p {
+  margin-top: 30px;
+  color: green;
+}
+.container main .nono .no-1 {
+  width: 12.5%;
+  height: 16vh;
+  font-size: 30px;
+  background-color: #242323;
+}
+.container main .nono .no-2 {
+  width: 12.5%;
+  height: 16vh;
+  font-size: 30px;
+  background-color: #1f1e1e;
+}
+.container main .nono .no-3 {
+  width: 12.5%;
+  height: 16vh;
+  font-size: 30px;
+  background-color: #1a1919;
+}
+.container main .nono .no-4 {
+  width: 12.5%;
+  height: 16vh;
+  font-size: 30px;
+  background-color: #151414;
+}
+.container main .nono .no-5 {
+  width: 12.5%;
+  height: 16vh;
+  font-size: 30px;
+  background-color: #100f0f;
+}
+.container main .nono .no-6 {
+  width: 12.5%;
+  height: 16vh;
+  font-size: 30px;
+  background-color: #0b0a0a;
+}
+.container main .nono .no-7 {
+  width: 12.5%;
+  height: 16vh;
+  font-size: 30px;
+  background-color: #060505;
+}
+.container main .nono .no-8 {
+  width: 12.5%;
+  height: 16vh;
+  font-size: 30px;
+  background-color: #010000;
+}

@@ -1,0 +1,178 @@
+@margem-0: 0;
+@preenchimento-0: 0;
+@borda-0: 0;
+@fonte: Arial, Helvetica, sans-serif;
+@cor-base: rgb(41, 40, 40);
+@centro: auto;
+@branco: white;
+@texto-center: center;
+@cor-loop1: green;
+ 
+* {
+    margin: @margem-0;
+    padding: @preenchimento-0;
+    border: @borda-0;
+    font-family: @fonte;
+}
+html {
+    background-color: @cor-base;
+}
+.container {
+    width: 80%;
+    background-color: @cor-base;
+    margin: @centro;
+    height: 100vh;
+
+    main {
+        .primeiro {
+            display: flex;
+                div {
+                    color: @branco;
+                    text-align: @texto-center;
+                    p {
+                        margin-top: 30px;
+                    }
+                }
+                
+            each(range(5), {
+                .p-@{value} {
+                    width: 20%;
+                    height: 16vh;
+                    color: @branco;
+                    font-size: 30px;
+                    background-color: (@cor-base + (@value * 20));
+                }
+            });
+
+            .segundo {
+                display: flex;
+
+                each(range(5), {
+                    .s-@{value} {
+                        width: 20%;
+                        height: 16vh;
+                        background-color: (@cor-loop1 + (@value * 20));
+                    }
+                });
+            }
+        }
+        .terceiro {
+            display: flex;
+                div {
+                    color: @branco;
+                    text-align: @texto-center;
+                    p {
+                        margin-top: 30px;
+                        color: @cor-loop1;
+                    }
+                }
+                
+            each(range(8), {
+                .t-@{value} {
+                    width: 12.5%;
+                    height: 16vh;
+                    font-size: 30px;
+                    background-color: (@cor-base + (@value * -5));
+                }
+            });
+        }
+        .quarto {
+            display: flex;
+            div {
+                color: @branco;
+                text-align: @texto-center;
+                p {
+                    margin-top: 30px;
+                    color: @cor-loop1;
+                }
+            }
+            each(range(10), {
+                .q-@{value} {
+                    width: 10%;
+                    height: 16vh;
+                    font-size: 30px;
+                    background-color: (@cor-base + (@value * -5));
+                }
+            });
+        }
+        .quinto {
+            display: flex;
+            div {
+                color: @branco;
+                text-align: @texto-center;
+                p {
+                    margin-top: 30px;
+                    color: @cor-loop1;
+                }
+            }
+            each(range(8), {
+                .qu-@{value} {
+                    width: 12.5%;
+                    height: 16vh;
+                    font-size: 30px;
+                    background-color: (@cor-base + (@value * -5));
+                }
+            });
+
+            .sexto {
+                display: flex;
+                div {
+                    color: @branco;
+                    text-align: @texto-center;
+                    p {
+                        margin-top: 30px;
+                        color: @cor-loop1;
+                    }
+                }
+                each(range(5), {
+                    .se-@{value} {
+                        width: 20%;
+                        height: 16vh;
+                        font-size: 30px;
+                        background-color: (@cor-loop1 + (@value * 8));
+                    }
+                });
+            }
+        }
+        .setimo {
+            display: flex;
+            div {
+                color: @branco;
+                text-align: @texto-center;
+                p {
+                    margin-top: 45px;
+                    color: @cor-base;
+                }
+            }
+            each(range(8), {
+                .set-@{value} {
+                    width: 12.5%;
+                    height: 20vh;
+                    font-size: 30px;
+                    background-color: (@cor-loop1 + (@value * 15));
+                }
+            });
+        }
+        .nono {
+            display: flex;
+            div {
+                color: @branco;
+                text-align: @texto-center;
+                p {
+                    margin-top: 30px;
+                    color: @cor-loop1;
+                }
+            }
+            each(range(8), {
+                .no-@{value} {
+                    width: 12.5%;
+                    height: 16vh;
+                    font-size: 30px;
+                    background-color: (@cor-base + (@value * -5));
+                }
+            });
+        }
+    }
+}
+
+
