@@ -13,7 +13,7 @@ https://pt.wikipedia.org/wiki/Less_(linguagem_de_folha_de_estilo)" target="_blan
 * Clone o repositório.
 * Abra o CMD(interface de linha de comando) no diretório do projeto.
 * Rode o comando npm install para instalar as dependências.
-* Rode o comando ~~~node index.js~~~ para acionar o servidor.
+* Rode o comando ```node index.js``` para acionar o servidor.
 * 
 
 
