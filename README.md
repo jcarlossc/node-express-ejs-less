@@ -1,7 +1,7 @@
 # NODE LESS (node-express-ejs-less)
 Pré-processadores css: LESS
 
-O Node-Less é um pequeno estudo sebre o pré-processador css Less no sistema operacional Windows.  
+O Node-Less é um pequeno estudo sebre o pré-processador css Less.  
 
 ## Less
 
